@@ -97,10 +97,6 @@ Unit tests are written to ensure the correctness of the repository and service l
 
 `flutter test`
 
-### Contribution
-
-Contributions are welcome! Please create a pull request or raise an issue for any bug or feature request.
-
 ### License
 
 This project is licensed under the MIT License.
