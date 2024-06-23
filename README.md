@@ -95,10 +95,6 @@ Copy code
 
 Unit tests are written to ensure the correctness of the repository and service layers. To run tests, use:
 
-bash
-
-Copy code
-
 `flutter test`
 
 ### Contribution
