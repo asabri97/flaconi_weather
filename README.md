@@ -23,35 +23,19 @@ Before you begin, ensure you have met the following requirements:
 
 1.  Clone the repository:
 
-    bash
-
-    Copy code
-
     `git clone https://github.com/your-repository/weather-app.git
     cd weather-app`
 
 2.  Install dependencies:
 
-    bash
-
-    Copy code
-
     `flutter pub get`
 
 3.  Create a `.env` file in the root directory and add your OpenWeatherMap API key:
-
-    plaintext
-
-    Copy code
 
     `BASE_URL=https://api.openweathermap.org
     API_KEY=your_api_key_here`
 
 4.  Add `.env` file to your `pubspec.yaml` under `assets`:
-
-    yaml
-
-    Copy code
 
     `flutter:
       assets:
@@ -60,10 +44,6 @@ Before you begin, ensure you have met the following requirements:
 ### Running the App
 
 To run the app on your local machine, use the following command:
-
-bash
-
-Copy code
 
 `flutter run`
 
