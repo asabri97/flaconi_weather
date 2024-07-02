@@ -4,10 +4,10 @@ class Weather extends Equatable {
   final String day;
   final String condition;
   final String icon;
-  final double temperature;
-  final int humidity;
-  final int pressure;
-  final double windSpeed;
+  final num temperature;
+  final num humidity;
+  final num pressure;
+  final num windSpeed;
 
   const Weather({
     required this.day,

@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'weather_detail_card.dart';
 
 class WeatherAdditionalInfo extends StatelessWidget {
-  final int humidity;
-  final int pressure;
-  final double windSpeed;
+  final num humidity;
+  final num pressure;
+  final num windSpeed;
 
   const WeatherAdditionalInfo({
     super.key,

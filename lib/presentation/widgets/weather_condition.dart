@@ -16,9 +16,11 @@ class WeatherCondition extends StatelessWidget {
           style: const TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
         ),
         const SizedBox(height: 16),
-        Image.network(
-          iconUrl,
-          scale: 0.4,
+        Center(
+          child: Image.network(
+            iconUrl,
+            scale: 0.4,
+          ),
         ),
       ],
     );

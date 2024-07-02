@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class WeatherTemperature extends StatelessWidget {
-  final double temperature;
+  final num temperature;
   final bool isCelsius;
   final ValueChanged<bool> onToggle;
 
@@ -12,7 +12,7 @@ class WeatherTemperature extends StatelessWidget {
     required this.onToggle,
   });
 
-  String _formatTemperature(double celsius) {
+  String _formatTemperature(num celsius) {
     if (isCelsius) {
       return '${celsius.toStringAsFixed(1)}°C';
     } else {
